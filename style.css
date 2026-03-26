@@ -1,0 +1,32 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    overflow: hidden;
+}
+#box{ 
+    margin: 10vh 25vw;
+    width: 50vw;
+    height: 80vh;
+}
+#button{
+    height: 10vh;
+    width: 50vw;
+    font-size: 2vh;
+    border: none;
+    color: white;
+    background:linear-gradient(to right, yellow, green);
+    cursor: pointer;
+}
+#img{
+    height: 70vh;
+    width: 50vw;  
+    display: block;
+}
+#button:hover{
+    opacity: 0.8;
+}
